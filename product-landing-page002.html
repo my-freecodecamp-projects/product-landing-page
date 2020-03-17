@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product Landing Page</title>
+    <meta name="description" content="A freeCodeCamp project.  A product landing page.">
+    <meta name="keywords" content="landing product school supplies">
+    <meta name="author" content="Terri Fricker">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="empty.css">
+</head>
+    
+<body>
+
+<header id="header">
+    <nav id="nav-bar"> <!-- always stays at top of viewport -->
+        <div id="company-name">School Supply Box</div>
+        <div class="links">
+            <a class="nav-link" href="#products">Our Products</a>  
+            <a class="nav-link" href="#promises">Our Promises</a>
+            <a class="nav-link" href="#about">About Us</a>
+            <a class="nav-link" href="#subscribe">Subscribe</a>
+        </div>
+    </nav>
+    <img id="header-img" src="http://frickersolutions.com/images/short-school-header.jpg"
+        alt="photograph of various school supplies">
+        <div id="red-bar"></div>
+</header>
+
+<main>
+    <article>
+        <div id="sales-pitch">
+            <h1>The Annual Hunt for School Supplies</h1>
+            <img id="flustered-mom" src="http://frickersolutions.com/images/AdobeStock_MomSchoolSuppliesSmall.jpg"
+            alt="photograph of a flustered mom looking for school supplies in a store">
+            <p>Do you love the hunt each year or hate it?  Do you have a different list for each child?  
+            How do you know which store has the best prices?  Are you on the phone at one store 
+            while your best friend is at another so you can price shop?  Do your kids ask for twenty 
+            more items than actually needed?</p>
+            <p>Let us take all the questions out of the problem for you.  LOVE the hunt this year.  Get 
+            the BEST prices guaranteed.  SURPRISE each child with their own box of school supplies and  
+            meet your best friend for lunch instead of tag team shopping.</p>
+        </div>
+
+        <div id="products">
+            <h1>Our Products</h1>
+            <img id="click-now" src="http://frickersolutions.com/images/ClickNow.jpg" alt="bid red star">
+            <div id="product-container">
+                    <div class="product">
+                        <img src="http://frickersolutions.com/images/box2.jpg" 
+                            alt="school supplies appropriate for elementary school students">
+                        <h2>Elementary</h2>
+                        <p class="product-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt reprehenderit
+                            at eum molestias dolores libero impedit! Quam, fuga possimus facilis assumenda,
+                            iste, quibusdam?</p>
+                        <input class="button" type="button" value="Select">
+                    </div>
+                    <div class="product">
+                        <img src="http://frickersolutions.com/images/box4.jpg"
+                            alt="school supplies appropriate for middle school students">
+                        <h2>Middle School</h2>
+                        <p class="product-description">Dolor sit amet consectetur adipisicing elit. Nesciunt reprehenderit!  
+                            Quam, fuga possimus facilis assumenda, iste quibusdam ab quo itaque commodi omnis deleniti 
+                            reiciendis?  Lorem ipsum.</p>
+                        <input class="button" type="button" value="Select">
+                    </div>
+                    <div class="product">
+                        <img src="http://frickersolutions.com/images/box5.jpg"
+                            alt="school supplies appropriate for high school students">
+                        <h2>High School</h2>
+                        <p class="product-description">Consectetur adipisicing elit. Nesciunt reprehenderit
+                                    at eum molestias dolores libero impedit! Quam, fuga omnis deleniti reiciendis possimus facilis assumenda,
+                                    iste quibusdam ab.</p>
+                        <input class="button" type="button" value="Select">
+                    </div> <!-- last product description box-->
+            </div> <!-- end product box grid container -->
+        </div> <!-- end products section -->
+    </article>
+
+    <aside id="promises">
+        <h1>Our Promises</h1>
+        <div id="promise-container">
+            <div>
+                <img class="number" src="http://frickersolutions.com/images/number1-white.png" alt="number 1">
+                <h3>Low Price Guarantee</h3>
+            </div>
+            <div>
+                <img class="number" src="http://frickersolutions.com/images/number2-white.png" alt="number 2">
+                <h3>High Quality Products</h3>
+            </div>
+            <div>
+                <img class="number" src="http://frickersolutions.com/images/number3-white.png" alt="number 3">
+                <h3>Happy Kid Guarantee</h3>
+            </div> <!-- last promise -->
+        </div> <!-- end promise grid container -->
+    </aside> <!-- end promises section -->
+
+    <aside id="about">
+        <div id="about-text">
+            <h1>About Us</h1>
+            <p>The company School Supply Box was founded by two moms that were fed up with the 
+            annual hunt for school supplies and wanted to make the process much easier 
+            for the moms that came behind us.  Because we buy in bulk, we are able to negotiate 
+            much better prices than regular stores have.  We are also able to eliminate 
+            the problem of needing to hunt at different stores, saving moms an enormous amount 
+            of time.  We stay away from generic brands and buy the brand names that represent 
+            the best quality such as Crayola, Ticonderoga, Sharpie, Pilot, and Mead.  Our kids 
+            loved the boxes we found to put your child's supplies in.  We know yours will 
+            be excited about opening their personal boxes in the mail.  Let our struggles solve 
+            the Annual School Supply Hunt for you.</p>
+        </div>
+    </aside> <!-- end about us section -->
+
+    <aside id="subscribe">
+        <div id="subscribe-container">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <h1>Subscribe</h1>
+                <label for="email">Enter your email for our annual brochures: </label>
+                <input type="email" id="email" name="email" placeholder="example@domain.com">
+                <input type="submit" id="submit">
+            </form>
+            <video id="video" controls>
+                <source src="http://frickersolutions.com/images/Arlington_Catholic_Crayon_Stop_Motion_Project.ogv" 
+                type="video/ogg">
+            </video>
+        </div> <!-- end subscribe container-->
+    </aside>
+</main>
+</body>
+</html>
+
